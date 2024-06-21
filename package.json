@@ -1,0 +1,25 @@
+{
+	"name": "frontapi",
+	"version": "1.0.0",
+	"description": "A flexible and lightweight HTTP mock server built with Express.js. Easily mock RESTful API endpoints for testing and development purposes.",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js start"
+	},
+	"bin": {
+		"frontapi": "./server.js"
+	},
+	"keywords": [
+		"mock",
+		"server",
+		"http",
+		"api"
+	],
+	"author": "Ifeanyi Emmanuel",
+	"license": "MIT",
+	"dependencies": {
+		"commander": "^12.1.0",
+		"cors": "^2.8.5",
+		"express": "^4.19.2"
+	}
+}

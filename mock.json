@@ -1,0 +1,34 @@
+{
+	"endpoints": [
+		{
+			"method": "get",
+			"path": "/api/items/",
+			"status": 200,
+			"response": []
+		},
+		{
+			"method": "post",
+			"path": "/api/items/",
+			"status": 201,
+			"response": {}
+		},
+		{
+			"method": "get",
+			"path": "/api/items/:id",
+			"status": 200,
+			"response": {}
+		},
+		{
+			"method": "put",
+			"path": "/api/items/:id",
+			"status": 200,
+			"response": {}
+		},
+		{
+			"method": "delete",
+			"path": "/api/items/:id",
+			"status": 200,
+			"response": {}
+		}
+	]
+}
